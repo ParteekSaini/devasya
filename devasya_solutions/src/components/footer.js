@@ -8,16 +8,14 @@ class Footer extends Component {
     state = {  }
     render() { 
         return ( 
-            <div>
-                <br/>
-                <Navbar collapseOnSelect fixed='bottom' expand='sm' bg='secondary' variant='dark'>
+            <div >
+                
+                <Navbar collapseOnSelect expand='sm' bg='secondary' variant='dark'>
                     <Container>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav class="navbar-nav nav-fill w-100">
-                                <p>Devasya Solutions Pvt. Ltd.</p>
                                 <Nav.Item>
-                                    
                                     <Nav.Link href='/'>Home</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
@@ -33,11 +31,8 @@ class Footer extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <br/>
-                <br/>
-            </div>
-           
-            
+                <p style={{background:"black", color:"white", margin:"0"}}>Devasya Solutions Pvt. Ltd.</p>
+            </div>            
          );
     }
 }

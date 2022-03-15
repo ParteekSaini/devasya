@@ -9,7 +9,6 @@ class Header extends Component {
     render() { 
         return ( 
             <div>
-                <br/>
                 <Navbar collapseOnSelect fixed='top' expand='sm' bg='secondary' variant='dark'>
                     <Container>
                         <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
