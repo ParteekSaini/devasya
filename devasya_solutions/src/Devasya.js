@@ -21,6 +21,7 @@ function Devasya() {
           <Route path="/signin" element={<SignIn/>}></Route> 
         </Routes>
       </BrowserRouter>
+      <Footer></Footer>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
