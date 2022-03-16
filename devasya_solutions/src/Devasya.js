@@ -7,6 +7,7 @@ import Contact from './components/contact';
 import SignIn from './components/signin';
 import Header from './components/header';
 import Footer from './components/footer';
+import Careers from './components/careers';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import bgImage from './images/background.jpeg';
@@ -23,6 +24,7 @@ function Devasya() {
             <Route path="/services" element={<Services/>}></Route>
             <Route path="/contact" element={<Contact/>}></Route>
             <Route path="/signin" element={<SignIn/>}></Route> 
+            <Route path="/careers" element={<Careers/>}></Route> 
           </Routes>
         </BrowserRouter>
       </Container>

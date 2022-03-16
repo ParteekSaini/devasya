@@ -27,6 +27,9 @@ class Footer extends Component {
                                 <Nav.Item>
                                     <Nav.Link href='/signin'>SignIn</Nav.Link>
                                 </Nav.Item>
+                                <Nav.Item>
+                                    <Nav.Link href='/careers'>Careers</Nav.Link>
+                                </Nav.Item>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
