@@ -17,35 +17,35 @@ class Careers extends Component {
                     <Form>                    
                         <Row>
                             <Form.Group as={Col} className="mb-3" controlId="formBasicName">
-                                <Form.Control type="text" size="lg" placeholder="First Name" />
+                                <Form.Control type="text" size="md" placeholder="First Name" />
                             </Form.Group>
                             <Form.Group as={Col} className="mb-3" controlId="formBasicName">
-                                <Form.Control type="text" size="lg" placeholder="Last Name" />
+                                <Form.Control type="text" size="md" placeholder="Last Name" />
                             </Form.Group>
                         </Row>
                         <Row>
                             <Form.Group as={Col} className="mb-3" controlId="formBasicEmail">
-                                <Form.Control type="email" size="lg" placeholder="Email" />
+                                <Form.Control type="email" size="md" placeholder="Email" />
                             </Form.Group>
                             <Form.Group as={Col} className="mb-3" controlId="formBasicPhone">
-                                <Form.Control type="phone" size="lg" placeholder="Phone Number" />
+                                <Form.Control type="phone" size="md" placeholder="Phone Number" />
                             </Form.Group>
                         </Row>
                         {/* <Row> */}
-                            <Form.Group controlId="formFileLg" className="mb-3">
+                            <Form.Group controlId="formFilemd" className="mb-3">
                                 {/* <Form.Label>Large file input example</Form.Label> */}
-                                <Form.Control type="file" size="lg" />
+                                <Form.Control type="file" size="md" />
                                 <small style={{ textAlign :"left" }}>Please attach your resume in pdf format and size should be less than 2mb.</small>
                             </Form.Group>
                         {/* </Row> */}
                         
                         <Row>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                <Form.Control  as="textarea" size="lg" type="text" style={{ height: '100px' }} placeholder="Message" />
+                                <Form.Control  as="textarea" size="md" type="text" style={{ height: '100px' }} placeholder="Message" />
                             </Form.Group>
                         </Row>
 
-                        <Button variant="primary" type="submit" size="lg" >
+                        <Button variant="primary" type="submit" size="md" >
                             Submit
                         </Button>
                     </Form>
