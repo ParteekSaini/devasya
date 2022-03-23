@@ -7,9 +7,9 @@ import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Devasya />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <Devasya />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
